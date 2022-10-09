@@ -307,8 +307,8 @@ while [ $p -ge 1 ]; do
 done
 
 # you can change ROOT size(MB) >= 320
-ROOT1=960
-ROOT2=960
+ROOT1=15000
+ROOT2=15000
 if [[ "${AMLOGIC_SOC}" == "s912" || "${AMLOGIC_SOC}" == "s905d" ]]; then
     BOOT=512
     BLANK1=68
